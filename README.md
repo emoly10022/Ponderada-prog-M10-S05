@@ -1,1 +1,42 @@
-# Ponderada-prog-M10-S05
+# Relatório de Testes Automatizados: Garantia de Funcionalidades
+
+Esta documentação apresenta os detalhes sobre a validação de funcionalidades essenciais da aplicação de cálculo de juros compostos e conversão de temperaturas. A implementação de testes automatizados incluiu testes unitários, mocks e integração, visando garantir o funcionamento correto em diversos cenários de uso e a interação eficaz entre os componentes do sistema.
+
+## Configuração do Ambiente
+
+As ferramentas e bibliotecas utilizadas para a configuração do ambiente de testes são as seguintes:
+
+- .NET Core SDK para desenvolvimento da aplicação principal.
+- Frameworks de testes NUnit, xUnit e MSTest para a execução de testes unitários.
+- Bibliotecas de mocking, como NSubstitute e Moq, para simular dependências.
+- SpecFlow para conduzir testes de integração baseados na abordagem BDD.
+- Sistemas de CI/CD, como GitHub Actions, para realizar os testes automaticamente a cada commit.
+
+
+## Categorias de Testes
+
+Os testes foram organizados em três categorias principais, detalhadas a seguir. Cada seção inclui o propósito, os cenários abordados e exemplos da execução dos testes.
+
+### 1. Testes Unitários
+
+**Objetivo**
+
+Testes unitários foram implementados para validar a exatidão das funções responsáveis pela conversão de temperaturas, garantindo que as operações de transformação entre Fahrenheit e Celsius retornem os valores esperados. Cada teste cobre cenários variados para assegurar precisão e robustez.
+
+**Escopo dos Testes**
+
+O objetivo é validar os cálculos de forma isolada, sem interferência de outras partes do sistema. Os três frameworks de testes (NUnit, xUnit e MSTest) foram utilizados para realizar validações independentes, promovendo maior confiabilidade no código.
+
+**Resultados**
+
+Execução com NUnit:
+
+![alt text](imgs/teste.png)
+
+Execução com xUnit:
+
+![alt text](imgs/teste2.png)
+
+Execução com MSTest:
+
+![alt text](imgs/teste3.png)
