@@ -40,3 +40,22 @@ Execução com xUnit:
 Execução com MSTest:
 
 ![alt text](imgs/teste3.png)
+
+### 2. Testes com Mock
+
+**Objetivo**
+Os testes com mocks foram desenvolvidos para simular a interação da aplicação com dependências externas, como serviços de log, eliminando a necessidade de implementações reais. Dessa forma, é possível validar a lógica interna de interação com esses serviços.
+
+**Escopo dos Testes**
+Esses testes verificam se o sistema realiza corretamente chamadas a serviços externos, como registrar mensagens de log ao executar um cálculo. Foram utilizadas as bibliotecas NSubstitute e Moq para criar simulações precisas.
+
+**Resultados**
+
+Execução com Moq:
+
+![alt text](imgs/teste4.png)
+
+Execução com NSubstitute:
+
+![alt text](imgs/teste5.png)
+
