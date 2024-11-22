@@ -59,3 +59,11 @@ Execução com NSubstitute:
 
 ![alt text](imgs/teste5.png)
 
+### 3. Testes de Integração
+
+**Objetivo**
+Os testes de integração foram projetados para validar a interação entre os diferentes componentes da aplicação, reproduzindo cenários reais de uso. A abordagem BDD, implementada com SpecFlow, foi adotada para descrever funcionalidades com base em histórias de usuários.
+
+**Escopo dos Testes**
+Esses testes verificam operações completas, como o cálculo de juros compostos, partindo da entrada dos dados iniciais (montante, taxa de juros e período) até a apresentação do resultado final. O objetivo é garantir que o fluxo completo funcione conforme esperado, simulando a experiência do usuário final.
+
